@@ -1,0 +1,24 @@
+-- VERSION_4
+-- START DISKCACHE_2
+F:\EclipseWorkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\MachineLearningTest\com.python.pydev.analysis\v2_indexcache
+Test|1498722028833122000|F:\EclipseWorkspace\MachineLearningTest\Test.py
+Main|1497714976530225000|F:\EclipseWorkspace\MachineLearningTest\Main.py
+initdata|1497748854338220000|F:\EclipseWorkspace\MachineLearningTest\initdata.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+1=Test
+2=initdata
+3=Main
+-- END DICTIONARY
+-- START TREE 1
+5
+dic|1|dict!11@
+f|1|f!18@
+loa|1|load_data!18@
+rf|1|rf!27@
+try|1|try_different_method!26@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

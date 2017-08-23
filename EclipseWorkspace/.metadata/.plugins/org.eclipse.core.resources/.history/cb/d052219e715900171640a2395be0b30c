@@ -1,0 +1,38 @@
+#coding=utf-8
+'''
+Created on 2017��6��25��
+
+@author: LIli
+'''
+import xlrd
+import xlwt
+from datetime import date,datetime
+import types
+import time
+import os
+from scipy.special.orthogonal import sh_chebyt
+
+def ReadExcel(filename):
+    bk = xlrd.open_workbook(fname)
+    try:
+        sh = bk.sheet_by_index(0)
+    except:
+        print "读取excel出错"
+    nrows=sh.nrows
+    row_list = []
+#get value by row,if celltype is datetime,read it as datemode
+    for i in range(0,nrows):
+        row_data = sh.row_values(i)
+        row_list.append(row_data)
+        
+    for item in row_list:
+        print item
+       
+if __name__ == '__main__':
+    filename=r"E:\创新5号-非\转台\数据\20170607Z01-1出所验收\28V.xls"
+    ReadExcel(filename)    
+        
+
+    
+
+

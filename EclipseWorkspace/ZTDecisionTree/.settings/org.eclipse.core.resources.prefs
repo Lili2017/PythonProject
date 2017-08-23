@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding/Common.py=utf-8
+encoding/DecisionC45.py=utf-8
+encoding/DecisionCART.py=utf-8
+encoding/DecisonID3.py=utf-8
+encoding/GetData.py=utf-8
+encoding/MysqlOperation.py=utf-8
+encoding/TreePlot.py=utf-8

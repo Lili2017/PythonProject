@@ -1,0 +1,8 @@
+MODULES_MANAGER_V2
+Common|F:\EclipseWorkspace\ZTDecisionTree\Common.py
+DecisionC45|F:\EclipseWorkspace\ZTDecisionTree\DecisionC45.py
+DecisionCART|F:\EclipseWorkspace\ZTDecisionTree\DecisionCART.py
+DecisonID3|F:\EclipseWorkspace\ZTDecisionTree\DecisonID3.py
+GetData|F:\EclipseWorkspace\ZTDecisionTree\GetData.py
+MysqlOperation|F:\EclipseWorkspace\ZTDecisionTree\MysqlOperation.py
+TreePlot|F:\EclipseWorkspace\ZTDecisionTree\TreePlot.py

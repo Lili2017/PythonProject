@@ -1,0 +1,34 @@
+-- VERSION_4
+-- START DISKCACHE_2
+F:\EclipseWorkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\ExcelOperationTest\com.python.pydev.analysis\v2_indexcache
+WriteExcel|1497858741555329000|F:\EclipseWorkspace\ExcelOperationTest\WriteExcel.py
+ReadExcel|1497871182279710000|F:\EclipseWorkspace\ExcelOperationTest\ReadExcel.py
+ContinueWrite|1498544802151813000|F:\EclipseWorkspace\ExcelOperationTest\ContinueWrite.py
+Main|1497858741645325000|F:\EclipseWorkspace\ExcelOperationTest\Main.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=ReadExcel
+1=ContinueWrite
+-- END DICTIONARY
+-- START TREE 1
+15
+bk|2|bk!11@bk!19@
+cel|1|cell_value!19@
+dat|1|date_value!19@
+fil|1|file_path!19@
+fna|1|fname!19@
+nco|2|ncols!19@ncols!11@
+nro|2|nrows!19@nrows!11@
+nwx|1|nwxlbook!19@
+row|2|row_list!19@row_data!19@
+sh|2|sh!19@sh!11@
+she|1|sheet1!19@
+shx|1|shxrange!19@
+tim|1|time_tmp!19@
+w|1|w!11@
+wrf|1|wrfilename!19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

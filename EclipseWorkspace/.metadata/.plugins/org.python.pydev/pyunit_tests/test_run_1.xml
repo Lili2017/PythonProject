@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="4" failures="0" finished="true" name="Test Run: 1" tests="0" total_time="Finished in: 0.01 secs."/>
+<test location="F:/EclipseWorkspace/ExcelOperationTest/ContinueWrite.py" status="error" test="ContinueWrite" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\LIli\.p2\pool\plugins\org.python.pydev_5.8.0.201706061859\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "F:\EclipseWorkspace\ExcelOperationTest\ContinueWrite.py", line 11, in <module>
+    bk = xlrd.open_workbook(r"C:\Users\LIli\Desktop\testsource.xls")
+  File "C:\Python27\lib\site-packages\xlrd\__init__.py", line 395, in open_workbook
+    with open(filename, "rb") as f:
+IOError: [Errno 2] No such file or directory: 'C:\\Users\\LIli\\Desktop\\testsource.xls'
+ERROR: Module: ContinueWrite could not be imported (file: F:/EclipseWorkspace/ExcelOperationTest/ContinueWrite.py).
+]]></stderr>
+</test>
+<test location="F:/EclipseWorkspace/ExcelOperationTest/Main.py" status="error" test="Main" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\LIli\.p2\pool\plugins\org.python.pydev_5.8.0.201706061859\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "F:\EclipseWorkspace\ExcelOperationTest\Main.py", line 2
+SyntaxError: Non-ASCII character '\xc4' in file F:\EclipseWorkspace\ExcelOperationTest\Main.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+ERROR: Module: Main could not be imported (file: F:/EclipseWorkspace/ExcelOperationTest/Main.py).
+]]></stderr>
+</test>
+<test location="F:/EclipseWorkspace/ExcelOperationTest/ReadExcel.py" status="error" test="ReadExcel" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\LIli\.p2\pool\plugins\org.python.pydev_5.8.0.201706061859\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "F:\EclipseWorkspace\ExcelOperationTest\ReadExcel.py", line 25, in <module>
+    bk = xlrd.open_workbook(fname)
+  File "C:\Python27\lib\site-packages\xlrd\__init__.py", line 395, in open_workbook
+    with open(filename, "rb") as f:
+IOError: [Errno 2] No such file or directory: '.\\Sheet1.xlsx'
+ERROR: Module: ReadExcel could not be imported (file: F:/EclipseWorkspace/ExcelOperationTest/ReadExcel.py).
+]]></stderr>
+</test>
+<test location="F:/EclipseWorkspace/ExcelOperationTest/WriteExcel.py" status="error" test="WriteExcel" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\LIli\.p2\pool\plugins\org.python.pydev_5.8.0.201706061859\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "F:\EclipseWorkspace\ExcelOperationTest\WriteExcel.py", line 2
+SyntaxError: Non-ASCII character '\xc4' in file F:\EclipseWorkspace\ExcelOperationTest\WriteExcel.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+ERROR: Module: WriteExcel could not be imported (file: F:/EclipseWorkspace/ExcelOperationTest/WriteExcel.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="ExcelOperationTest ExcelOperationTest"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

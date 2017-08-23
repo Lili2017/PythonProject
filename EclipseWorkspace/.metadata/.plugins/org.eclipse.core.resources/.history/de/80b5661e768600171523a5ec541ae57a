@@ -1,0 +1,19 @@
+#coding=utf-8
+'''
+Created on 2017年8月21日
+
+@author: LIli
+'''
+
+import pandas as pd
+
+
+def CalculateData(data):
+    aver=pd.mean(data)
+    stdva=pd.std(data)
+    return aver,stdva
+
+testdata=[1,2,3,4,5]
+avervalue,stdvalue=CalculateData(testdata)
+print avervalue
+print stdvalue

@@ -1,0 +1,44 @@
+#coding=utf-8
+'''
+Created on 2017��6��25��
+
+@author: LIli
+'''
+import xlrd
+import xlwt
+from datetime import date,datetime
+import types
+import time
+import os
+
+xlrd.Book.encoding = "gbk"
+def ReadExcel(filename):
+    bk = xlrd.open_workbook(filename)
+    print "biaoji"
+    try:
+        sh = bk.sheet_by_index(0)
+        print "biaoji"
+    except:
+        print "读取excel出错"
+    nrows=sh.nrows
+    print nrows
+    row_list = []
+    cell_value = sh.cell_value(0,0)
+    print cell_value
+    '''
+#get value by row,if celltype is datetime,read it as datemode
+    for i in range(0,nrows):
+        row_data = sh.row_values(i)
+        print row_data[0]
+        row_list.append(row_data)
+        
+    for item in row_list:
+        print item
+       '''
+filename="C:\Users\LIli\Desktop\can1.xls"
+ReadExcel(unicode(filename, "utf8"))    
+ 
+
+    
+
+

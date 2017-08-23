@@ -1,0 +1,19 @@
+#coding=utf-8
+'''
+Created on 2017年7月9日
+
+@author: LIli
+'''
+
+
+from numpy import *
+
+a=[[1,2,3],[2,4,5]]
+print a
+print shape(a)[1]
+b=mat(a)
+print b
+print shape(b)[1]
+
+
+

@@ -1,0 +1,21 @@
+-- VERSION_4
+-- START DISKCACHE_2
+F:\EclipseWorkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\JiaBanTongJi\com.python.pydev.analysis\v2_indexcache
+ToTest|1503280507604352000|F:\EclipseWorkspace\JiaBanTongJi\ToTest.py
+JiaTong|1502434835869429000|F:\EclipseWorkspace\JiaBanTongJi\JiaTong.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=ToTest
+1=JiaTong
+-- END DICTIONARY
+-- START TREE 1
+4
+nam|4|nametongji!10@namelist!19@namelist!11@nametongji!18@
+rea|4|ReadExcel!10@readexcelname!19@ReadExcel!18@readexcelname!11@
+sta|2|status!19@status!11@
+wri|4|WriteExcel!18@writefilename!19@WriteExcel!10@writefilename!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

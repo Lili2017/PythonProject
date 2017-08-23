@@ -1,0 +1,23 @@
+#coding=utf-8
+'''
+Created on 2017年7月9日
+
+@author: LIli
+'''
+
+
+from numpy import *
+
+def binSplitDataSet(dataSet, feature, value):
+
+    mat0 = dataSet[nonzero(dataSet[:,feature] > value)[0],:][0]
+
+    mat1 = dataSet[nonzero(dataSet[:,feature] <= value)[0],:][0]
+
+    return mat0,mat1
+
+a=[[1,2,3],[4,5,6],[7,8,9]]
+b=mat(a)
+
+print nonzero(b[:,1] > 4)
+

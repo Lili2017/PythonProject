@@ -1,0 +1,11 @@
+#coding=utf-8
+'''
+Created on 2017年7月9日
+
+@author: LIli
+'''
+
+def addfuc(a):
+    return a+1
+
+print map(float,"1d3")

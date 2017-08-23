@@ -1,0 +1,32 @@
+-- VERSION_4
+-- START DISKCACHE_2
+F:\EclipseWorkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\JustForTest\com.python.pydev.analysis\v2_indexcache
+Test|1500259340636516000|F:\EclipseWorkspace\JustForTest\Test.py
+MysqlTest|1502188492726563000|F:\EclipseWorkspace\JustForTest\MysqlTest.py
+pyqttest|1498369892200809000|F:\EclipseWorkspace\JustForTest\pyqttest.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+2=Test
+4=MyWidget
+3=MysqlTest
+5=MyWidget.__init__
+1=pyqttest
+-- END DICTIONARY
+-- START TREE 1
+9
+app|1|app!11@
+bin|1|binSplitDataSet!18@
+com|1|command!27@
+cur|1|cursor!27@
+db|1|db!27@
+myw|1|MyWidget!9@
+res|1|results!27@
+sql|1|sql!27@
+wid|1|widget!11@
+-- END TREE
+-- START TREE 2
+2
+__i|1|__init__!4&10@
+qui|1|quit!5&11@
+-- END TREE

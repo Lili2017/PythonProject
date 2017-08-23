@@ -1,0 +1,11 @@
+#coding=utf-8
+'''
+Created on 2017年7月9日
+
+@author: LIli
+'''
+
+import numpy as np
+
+a=[[1,0,2],[1,0,0]]
+print np.nonzero(a)

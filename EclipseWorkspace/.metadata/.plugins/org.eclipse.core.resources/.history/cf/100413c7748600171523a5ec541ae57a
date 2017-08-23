@@ -1,0 +1,20 @@
+#coding=utf-8
+'''
+Created on 2017年8月21日
+
+@author: LIli
+'''
+
+import numpy
+from numpy import std,mean
+
+
+def CalculateData(data):
+    aver=mean(data)
+    stdva=std(data)
+    return aver,stdva
+
+testdata=[1,2,3]
+avervalue,stdvalue=CalculateData(testdata)
+print avervalue
+print stdvalue
