@@ -1,0 +1,5 @@
+#coding=utf-8
+
+
+strby=r"1,2,4,\n,5,6,7\n"
+pring strby

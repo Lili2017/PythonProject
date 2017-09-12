@@ -1,0 +1,22 @@
+#coding=utf-8
+'''
+Created on 2017年9月11日
+
+@author: LIli
+'''
+
+#Read TXTfile and extract need data
+def GetdatafromTxt(txtfilefullpath):
+    f = open(txtfilefullpath,"r")  
+    lines = f.readlines()#读取全部内容  
+    tempnum=1;
+    for line in lines : 
+        tempnum=tempnum+1
+        print line  
+        if tempnum==4:
+            break;
+        
+
+if __name__=='__main__':
+    textfilename=r'C:\Users\LIli\Desktop\dijian\remote_201791114165505.txt'
+    GetdatafromTxt(textfilename)

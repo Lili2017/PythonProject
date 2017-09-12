@@ -1,0 +1,12 @@
+INSTUPDijianTxt
+F:\EclipseWorkspace\ZTTongji\DijianTxt.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0&&3|7|2|0&&3|8|2|0&&3|9|2|0
+CalculateData=3
+Getfilename=5
+datapath=8
+WriteExcel=4
+GetdatafromTxt=6
+listdir=1
+listname=9
+writefilename=7
+DijianTxt=2

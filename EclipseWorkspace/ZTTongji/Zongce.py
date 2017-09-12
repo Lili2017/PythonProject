@@ -38,7 +38,7 @@ def CalculateData(data):
 
 #获取完整路径的文件名字
 def Getfilename(filefullpath):
-    filename=os.path.basename(readexcelname)
+    filename=os.path.basename(filefullpath)
     filenamewithoutex,exten=os.path.splitext(filename)
     return filenamewithoutex
 

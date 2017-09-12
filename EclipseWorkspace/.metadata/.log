@@ -4790,3 +4790,649 @@ java.lang.RuntimeException: It seems it's already disposed...
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SESSION 2017-08-23 21:46:59.773 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-23 21:47:32.680
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\LIli'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-08-23 21:54:41.830
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-08-23 21:54:41.900
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-08-23 22:35:50.771
+!MESSAGE Did not expect to find item below node: Assign[targets=[Name[id=csvfile, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 91).
+!STACK 0
+java.lang.RuntimeException: Did not expect to find item below node: Assign[targets=[Name[id=csvfile, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 91).
+	at org.python.pydev.core.log.Log.log(Log.java:54)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.endScopesInStack(FastDefinitionsParser.java:604)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.handleNewLine(FastDefinitionsParser.java:394)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.extractBody(FastDefinitionsParser.java:259)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:691)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:685)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:676)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:115)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:1)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.<init>(AnalysisBuilderRunnable.java:164)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnableFactory.createRunnable(AnalysisBuilderRunnableFactory.java:222)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:180)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:129)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:45)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitWith(PydevGrouperVisitor.java:115)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitChangedResource(PydevGrouperVisitor.java:166)
+	at org.python.pydev.builder.PydevGrouperVisitor.finishDelayedVisits(PydevGrouperVisitor.java:190)
+	at org.python.pydev.builder.PyDevBuilder.build(PyDevBuilder.java:133)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-08-23 22:35:51.221
+!MESSAGE Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 96).
+!STACK 0
+java.lang.RuntimeException: Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 96).
+	at org.python.pydev.core.log.Log.log(Log.java:54)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.endScopesInStack(FastDefinitionsParser.java:604)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.handleNewLine(FastDefinitionsParser.java:394)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.extractBody(FastDefinitionsParser.java:259)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:691)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:685)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:676)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:115)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:1)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.<init>(AnalysisBuilderRunnable.java:164)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnableFactory.createRunnable(AnalysisBuilderRunnableFactory.java:222)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:180)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:129)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:45)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitWith(PydevGrouperVisitor.java:115)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitChangedResource(PydevGrouperVisitor.java:166)
+	at org.python.pydev.builder.PydevGrouperVisitor.finishDelayedVisits(PydevGrouperVisitor.java:190)
+	at org.python.pydev.builder.PyDevBuilder.build(PyDevBuilder.java:133)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-08-23 22:35:51.231
+!MESSAGE Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 97).
+!STACK 0
+java.lang.RuntimeException: Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 97).
+	at org.python.pydev.core.log.Log.log(Log.java:54)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.endScopesInStack(FastDefinitionsParser.java:604)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.handleNewLine(FastDefinitionsParser.java:394)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.extractBody(FastDefinitionsParser.java:259)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:691)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:685)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:676)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:115)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:1)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.<init>(AnalysisBuilderRunnable.java:164)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnableFactory.createRunnable(AnalysisBuilderRunnableFactory.java:222)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:180)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:129)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:45)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitWith(PydevGrouperVisitor.java:115)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitChangedResource(PydevGrouperVisitor.java:166)
+	at org.python.pydev.builder.PydevGrouperVisitor.finishDelayedVisits(PydevGrouperVisitor.java:190)
+	at org.python.pydev.builder.PyDevBuilder.build(PyDevBuilder.java:133)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-08-23 22:35:51.231
+!MESSAGE Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 98).
+!STACK 0
+java.lang.RuntimeException: Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 98).
+	at org.python.pydev.core.log.Log.log(Log.java:54)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.endScopesInStack(FastDefinitionsParser.java:604)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.handleNewLine(FastDefinitionsParser.java:394)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.extractBody(FastDefinitionsParser.java:259)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:691)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:685)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:676)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:115)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:1)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.<init>(AnalysisBuilderRunnable.java:164)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnableFactory.createRunnable(AnalysisBuilderRunnableFactory.java:222)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:180)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:129)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:45)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitWith(PydevGrouperVisitor.java:115)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitChangedResource(PydevGrouperVisitor.java:166)
+	at org.python.pydev.builder.PydevGrouperVisitor.finishDelayedVisits(PydevGrouperVisitor.java:190)
+	at org.python.pydev.builder.PyDevBuilder.build(PyDevBuilder.java:133)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-08-23 22:35:51.231
+!MESSAGE Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 99).
+!STACK 0
+java.lang.RuntimeException: Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 99).
+	at org.python.pydev.core.log.Log.log(Log.java:54)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.endScopesInStack(FastDefinitionsParser.java:604)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.handleNewLine(FastDefinitionsParser.java:394)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.extractBody(FastDefinitionsParser.java:259)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:691)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:685)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:676)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:115)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:1)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.<init>(AnalysisBuilderRunnable.java:164)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnableFactory.createRunnable(AnalysisBuilderRunnableFactory.java:222)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:180)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:129)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:45)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitWith(PydevGrouperVisitor.java:115)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitChangedResource(PydevGrouperVisitor.java:166)
+	at org.python.pydev.builder.PydevGrouperVisitor.finishDelayedVisits(PydevGrouperVisitor.java:190)
+	at org.python.pydev.builder.PyDevBuilder.build(PyDevBuilder.java:133)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-08-23 22:35:51.241
+!MESSAGE Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 100).
+!STACK 0
+java.lang.RuntimeException: Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 100).
+	at org.python.pydev.core.log.Log.log(Log.java:54)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.endScopesInStack(FastDefinitionsParser.java:604)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.handleNewLine(FastDefinitionsParser.java:394)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.extractBody(FastDefinitionsParser.java:259)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:691)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:685)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:676)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:115)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:1)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.<init>(AnalysisBuilderRunnable.java:164)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnableFactory.createRunnable(AnalysisBuilderRunnableFactory.java:222)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:180)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:129)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:45)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitWith(PydevGrouperVisitor.java:115)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitChangedResource(PydevGrouperVisitor.java:166)
+	at org.python.pydev.builder.PydevGrouperVisitor.finishDelayedVisits(PydevGrouperVisitor.java:190)
+	at org.python.pydev.builder.PyDevBuilder.build(PyDevBuilder.java:133)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-08-23 22:35:51.241
+!MESSAGE Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 101).
+!STACK 0
+java.lang.RuntimeException: Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 101).
+	at org.python.pydev.core.log.Log.log(Log.java:54)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.endScopesInStack(FastDefinitionsParser.java:604)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.handleNewLine(FastDefinitionsParser.java:394)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.extractBody(FastDefinitionsParser.java:259)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:691)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:685)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:676)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:115)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:1)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.<init>(AnalysisBuilderRunnable.java:164)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnableFactory.createRunnable(AnalysisBuilderRunnableFactory.java:222)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:180)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:129)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:45)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitWith(PydevGrouperVisitor.java:115)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitChangedResource(PydevGrouperVisitor.java:166)
+	at org.python.pydev.builder.PydevGrouperVisitor.finishDelayedVisits(PydevGrouperVisitor.java:190)
+	at org.python.pydev.builder.PyDevBuilder.build(PyDevBuilder.java:133)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-08-23 22:35:51.251
+!MESSAGE Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 103).
+!STACK 0
+java.lang.RuntimeException: Did not expect to find item below node: Assign[targets=[Name[id=soup, ctx=Store, reserved=false]], value=null, type=null] (module: LianJia file: F:\EclipseWorkspace\InternetWorm\LianJia.py row: 103).
+	at org.python.pydev.core.log.Log.log(Log.java:54)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.endScopesInStack(FastDefinitionsParser.java:604)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.handleNewLine(FastDefinitionsParser.java:394)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.extractBody(FastDefinitionsParser.java:259)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:691)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:685)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:676)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:115)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:1)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.<init>(AnalysisBuilderRunnable.java:164)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnableFactory.createRunnable(AnalysisBuilderRunnableFactory.java:222)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:180)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:129)
+	at com.python.pydev.analysis.builder.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:45)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitWith(PydevGrouperVisitor.java:115)
+	at org.python.pydev.builder.PydevGrouperVisitor.visitChangedResource(PydevGrouperVisitor.java:166)
+	at org.python.pydev.builder.PydevGrouperVisitor.finishDelayedVisits(PydevGrouperVisitor.java:190)
+	at org.python.pydev.builder.PyDevBuilder.build(PyDevBuilder.java:133)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-09-11 13:44:05.604 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-09-11 13:44:10.401
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-11 13:44:37.668
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\LIli'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-09-11 13:49:14.889
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-09-11 13:49:14.910
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2017-09-11 15:27:56.668
+!MESSAGE Unable to connect to repository http://pydev.sourceforge.net/updates/content.xml
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:120)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-09-11 16:22:09.824
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@2bfbb421
+
+ProcessInfo:
+
+ - Executed: C:\Python27\python.exe -u C:\Users\LIli\.p2\pool\plugins\org.python.pydev_5.8.0.201706061859\pysrc\pycompletionserver.py 64065
+
+ - Environment:
+#ENVTSLOGSSS13892=212501856
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\LIli\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=LAPTOP-E05TNND4
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+CONFIGSETROOT=C:\WINDOWS\ConfigSetRoot
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\LIli
+LOCALAPPDATA=C:\Users\LIli\AppData\Local
+LOGONSERVER=\\LAPTOP-E05TNND4
+MOZ_PLUGIN_PATH=D:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\plugins\
+MYSQLCONNECTOR_ASSEMBLIESPATH=C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.0
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\LIli\OneDrive
+OS=Windows_NT
+PATH=D:/Program Files/Java/jdk1.8.0_121/jre/bin/server;D:/Program Files/Java/jdk1.8.0_121/jre/bin;D:/Program Files/Java/jdk1.8.0_121/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\Program Files (x86)\MATLAB\R2008a\bin;D:\Program Files (x86)\MATLAB\R2008a\bin\win32;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;
+ath;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Diffuse;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4e03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\Users\LIli\.p2\pool\plugins\org.python.pydev_5.8.0.201706061859\pysrc\pydev_sitecustomize;C:\Python27\lib\site-packages\pip-9.0.1-py2.7.egg;E:\MachineLearning;C:\Python27\DLLs;C:\Python27\lib;C:\Python27\lib\lib-tk;C:\Python27;C:\Python27\lib\site-packages
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\WINDOWS
+TEMP=C:\Users\LIli\AppData\Local\Temp
+TMP=C:\Users\LIli\AppData\Local\Temp
+USERDOMAIN=LAPTOP-E05TNND4
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-E05TNND4
+USERNAME=LIli
+USERPROFILE=C:\Users\LIli
+VS100COMNTOOLS=d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VS140COMNTOOLS=D:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+WINDIR=C:\WINDOWS
+
+ - Working Dir:
+C:\Users\LIli\.p2\pool\plugins\org.python.pydev_5.8.0.201706061859\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at sun.nio.ch.SocketChannelImpl.poll(SocketChannelImpl.java:957)
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(SocketAdaptor.java:204)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:103)
+	at java.io.InputStream.read(InputStream.java:101)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.getLineCol(AbstractShell.java:776)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:607)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:1)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1018)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:702)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:185)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:84)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:100)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:58)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:167)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-09-11 16:23:08.714
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@7b13bac1
+
+ProcessInfo:
+
+ - Executed: C:\Python27\python.exe -u C:\Users\LIli\.p2\pool\plugins\org.python.pydev_5.8.0.201706061859\pysrc\pycompletionserver.py 49905
+
+ - Environment:
+#ENVTSLOGSSS13892=212501856
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\LIli\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=LAPTOP-E05TNND4
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+CONFIGSETROOT=C:\WINDOWS\ConfigSetRoot
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\LIli
+LOCALAPPDATA=C:\Users\LIli\AppData\Local
+LOGONSERVER=\\LAPTOP-E05TNND4
+MOZ_PLUGIN_PATH=D:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\plugins\
+MYSQLCONNECTOR_ASSEMBLIESPATH=C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.0
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\LIli\OneDrive
+OS=Windows_NT
+PATH=D:/Program Files/Java/jdk1.8.0_121/jre/bin/server;D:/Program Files/Java/jdk1.8.0_121/jre/bin;D:/Program Files/Java/jdk1.8.0_121/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\Program Files (x86)\MATLAB\R2008a\bin;D:\Program Files (x86)\MATLAB\R2008a\bin\win32;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;
+ath;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Diffuse;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4e03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\Users\LIli\.p2\pool\plugins\org.python.pydev_5.8.0.201706061859\pysrc\pydev_sitecustomize;C:\Python27\lib\site-packages\pip-9.0.1-py2.7.egg;E:\MachineLearning;C:\Python27\DLLs;C:\Python27\lib;C:\Python27\lib\lib-tk;C:\Python27;C:\Python27\lib\site-packages
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\WINDOWS
+TEMP=C:\Users\LIli\AppData\Local\Temp
+TMP=C:\Users\LIli\AppData\Local\Temp
+USERDOMAIN=LAPTOP-E05TNND4
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-E05TNND4
+USERNAME=LIli
+USERPROFILE=C:\Users\LIli
+VS100COMNTOOLS=d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VS140COMNTOOLS=D:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+WINDIR=C:\WINDOWS
+
+ - Working Dir:
+C:\Users\LIli\.p2\pool\plugins\org.python.pydev_5.8.0.201706061859\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at sun.nio.ch.SocketChannelImpl.poll(SocketChannelImpl.java:957)
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(SocketAdaptor.java:204)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:103)
+	at java.io.InputStream.read(InputStream.java:101)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.getLineCol(AbstractShell.java:776)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:607)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:1)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1018)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:702)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:185)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:84)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:100)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:58)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:167)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-09-11 18:30:01.897
+!MESSAGE The encoding found: >>ansi<< on \ZTTongji\DijianTxt.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>ansi<< on \ZTTongji\DijianTxt.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:732)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:690)
+	at org.python.pydev.core.FileUtilsFileBuffer.getPythonFileEncoding(FileUtilsFileBuffer.java:217)
+	at org.python.pydev.editor.PyEdit.fixEncoding(PyEdit.java:993)
+	at org.python.pydev.editor.PyEdit.performSave(PyEdit.java:900)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4820)
+	at org.python.pydev.editor.PyEdit.doSave(PyEdit.java:980)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7117)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:220)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:358)
+	at org.eclipse.ui.internal.SaveablesList$3.run(SaveablesList.java:667)
+	at org.eclipse.ui.internal.SaveableHelper$5.run(SaveableHelper.java:286)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:437)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:353)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2184)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2180)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:294)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:677)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:634)
+	at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3623)
+	at org.eclipse.ui.ide.IDE$1.run(IDE.java:1517)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1505)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.doSave(SaveScopeResourcesHandler.java:257)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:211)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$1.run(Prompter.java:72)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:162)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:154)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-09-11 18:30:43.708
+!MESSAGE The encoding found: >>ansi<< on \ZTTongji\DijianTxt.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>ansi<< on \ZTTongji\DijianTxt.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:732)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:690)
+	at org.python.pydev.core.FileUtilsFileBuffer.getPythonFileEncoding(FileUtilsFileBuffer.java:217)
+	at org.python.pydev.editor.PyEdit.fixEncoding(PyEdit.java:993)
+	at org.python.pydev.editor.PyEdit.performSave(PyEdit.java:900)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4820)
+	at org.python.pydev.editor.PyEdit.doSave(PyEdit.java:980)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7117)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:220)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:358)
+	at org.eclipse.ui.internal.SaveablesList$3.run(SaveablesList.java:667)
+	at org.eclipse.ui.internal.SaveableHelper$5.run(SaveableHelper.java:286)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:437)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:353)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2184)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2180)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:294)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:677)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:634)
+	at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3623)
+	at org.eclipse.ui.ide.IDE$1.run(IDE.java:1517)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1505)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.doSave(SaveScopeResourcesHandler.java:257)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:211)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$1.run(Prompter.java:72)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:162)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:154)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)

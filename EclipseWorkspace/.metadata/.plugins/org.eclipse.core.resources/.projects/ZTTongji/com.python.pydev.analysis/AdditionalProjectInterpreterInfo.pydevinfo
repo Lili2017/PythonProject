@@ -1,20 +1,24 @@
 -- VERSION_4
 -- START DISKCACHE_2
 F:\EclipseWorkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\ZTTongji\com.python.pydev.analysis\v2_indexcache
-Zongce|1503328712559735000|F:\EclipseWorkspace\ZTTongji\Zongce.py
+Zongce|1505120807916096000|F:\EclipseWorkspace\ZTTongji\Zongce.py
 -- END DISKCACHE
 -- START DICTIONARY
 1
 1=Zongce
 -- END DICTIONARY
 -- START TREE 1
-7
+11
 cal|1|CalculateData!10@
+dat|0|
 exc|1|excelname!11@
 get|1|Getfilename!10@
+lis|0|
 nam|1|name!11@
+pat|0|
 rea|1|readexcelname!11@
 row|1|rowli!11@
+tex|0|
 wri|1|WriteExcel!10@
 -- END TREE
 -- START TREE 2

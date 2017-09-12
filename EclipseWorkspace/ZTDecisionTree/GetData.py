@@ -56,8 +56,9 @@ def ReadCsv(csvfilename):
         row_list2.append(rows)#csv一行读出来当一个元素，最后这个row_list2只有1行，row_list2[0][0]选中csv中的第一行，row_list2[0][0][0]才选中第一个元素
     return row_list2
 
+#'ab+'表示追加模式
 def WriteCsv(csvobfilename,row_list2):
-    with open(csvobfilename,'w') as csvfile:
+    with open(csvobfilename,'ab+') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(row_list2[0][0])
     

@@ -1,12 +1,32 @@
 -- VERSION_4
 -- START DISKCACHE_2
 F:\EclipseWorkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\InternetWorm\com.python.pydev.analysis\v2_indexcache
+LianJia|1503500601061840000|F:\EclipseWorkspace\InternetWorm\LianJia.py
+Qiushibaike|1503495358939288000|F:\EclipseWorkspace\InternetWorm\Qiushibaike.py
 -- END DISKCACHE
 -- START DICTIONARY
-0
+1
+1=LianJia
 -- END DICTIONARY
 -- START TREE 1
-0
+17
+csv|1|csvfile!11@
+dat|1|data!11@
+hea|1|headers!11@
+lis|6|list5!11@list3!11@list1!11@list4!11@list2!11@list0!11@
+pag|1|page!11@
+req|1|request!11@
+res|1|response!11@
+sou|1|soup!11@
+ta1|1|ta1!11@
+ta2|1|ta2!11@
+ta3|1|ta3!11@
+ta4|1|ta4!11@
+ta5|1|ta5!11@
+the|1|the_page!11@
+url|1|url!11@
+use|1|user_agent!11@
+wri|1|writer!11@
 -- END TREE
 -- START TREE 2
 0

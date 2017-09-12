@@ -1,0 +1,13 @@
+INSTUPGetData
+F:\EclipseWorkspace\ZTDecisionTree\GetData.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0&&3|9|2|0&&3|10|2|0
+WriteExcel=3
+csvobfilename=9
+filename=6
+wrfilename=7
+csvfilename=8
+ReadExcel=1
+GetData=2
+WriteCsv=5
+ReadCsv=4
+row_list2=10
