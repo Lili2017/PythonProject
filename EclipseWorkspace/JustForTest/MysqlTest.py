@@ -4,7 +4,7 @@
 import MySQLdb
 
 command = raw_input('>>')
-if command=='a'
+if command=='a':
     print 'aa'
 # 打开数据库连接
 db = MySQLdb.connect("localhost","root","lilitju","testfirest" )

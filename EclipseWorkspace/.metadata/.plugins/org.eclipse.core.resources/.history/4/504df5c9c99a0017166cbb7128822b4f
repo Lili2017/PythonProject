@@ -1,0 +1,26 @@
+#coding=utf-8
+import numpy as np
+import xlrd
+import xlwt
+import os
+from xlutils.copy import copy
+from xlwt.ExcelFormulaLexer import false_pattern
+
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
+def WriteExcel(writefilename):
+    if os._exists(writefilename)==False:
+        nwxlbook = xlwt.Workbook()   #creat a xlbook object
+        sheet1 = nwxlbook.add_sheet('dregister')
+        #sheet1.write(0,0,unicode('时间',"utf8")
+        #sheet1.write(0,1,'试验阶段')
+        nwxlbook.save(writefilename)
+        
+if __name__=='__main__':
+    excelname=r'C:\Users\LIli\Desktop\测试.xls'
+    writefilename = unicode(excelname,"utf8")
+    WriteExcel(writefilename)
+    print 'done'
+    

@@ -1,0 +1,33 @@
+#coding=utf-8
+import numpy as np
+import xlrd
+import xlwt
+import os
+from xlutils.copy import copy
+from xlwt.ExcelFormulaLexer import false_pattern
+
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
+def WriteExcel(writefilename):
+    if os._exists(writefilename)==False:
+        nwxlbook = xlwt.Workbook()   #creat a xlbook object
+        sheet1 = nwxlbook.add_sheet('dregister')
+        sheet1.write(0,0,unicode('时间',"utf8")
+        sheet1.write(0,1,'试验阶段'.decode('UTF-8').encode('GBK'))
+        sheet1.write(0,2,'角速度平均'.decode('UTF-8').encode('GBK'))
+        sheet1.write(0,3,'角速度3'.decode('UTF-8').encode('GBK'))
+        sheet1.write(0,4,'角速度峰峰值'.decode('UTF-8').encode('GBK'))
+        sheet1.write(0,5,'平衡轮电流平均'.decode('UTF-8').encode('GBK'))
+        sheet1.write(0,6,'平衡轮电流3'.decode('UTF-8').encode('GBK'))
+        sheet1.write(0,7,'平衡轮电流峰峰值'.decode('UTF-8').encode('GBK'))
+        sheet1.write(0,8,'平衡轮转速平均'.decode('UTF-8').encode('GBK'))
+        sheet1.write(0,9,'平衡轮转速峰峰值'.decode('UTF-8').encode('GBK'))
+        nwxlbook.save(writefilename)
+        
+if __name__=='__main__':
+    excelname=r'C:\Users\LIli\Desktop\测试.xls'
+    writefilename = unicode(excelname,"utf8")
+    WriteExcel(writefilename)
+    

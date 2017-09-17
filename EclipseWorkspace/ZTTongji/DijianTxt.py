@@ -9,7 +9,7 @@ import xlrd
 import xlwt
 import os
 from xlutils.copy import copy
-from xlwt.ExcelFormulaLexer import false_pattern
+
 
 import sys
 reload(sys)
@@ -21,7 +21,7 @@ def listdir(path):
         file_path = os.path.join(path, file)  
         if os.path.isdir(file_path):  
             listdir(file_path)  
-        elif os.path.splitext(file_path)[1]=='.txt':  
+        elif 'remote' in os.path.splitext(file_path)[0]: 
             list_name.append(file_path)
     return list_name  
         
@@ -34,27 +34,32 @@ def CalculateData(data):
     peakvalue=maxval-minval
     return aver,stdva,peakvalue  
 
+#create excelfile
+def CreateExcel(wrirefilename):
+    if os.path.exists(writefilename)==True:
+        os.remove(writefilename)        
+    
+    nwxlbook = xlwt.Workbook(encoding = 'utf-8')   #creat a xlbook object
+    sheet1 = nwxlbook.add_sheet('Result')
+    sheet1.write(0,0,'时间')
+    sheet1.write(0,1,'试验阶段')
+    sheet1.write(0,2,'角速度平均')
+    sheet1.write(0,3,'角速度3')
+    sheet1.write(0,4,'角速度峰峰值')
+    sheet1.write(0,5,'电机电流平均')
+    sheet1.write(0,6,'电机电流3')
+    sheet1.write(0,7,'电机电流峰峰值')
+    sheet1.write(0,8,'平衡轮电流平均')
+    sheet1.write(0,9,'平衡轮电流3')
+    sheet1.write(0,10,'平衡轮电流峰峰值')
+    sheet1.write(0,11,'平衡轮转速平均')
+    sheet1.write(0,12,'平衡轮转速峰峰值')
+    sheet1.write(0,13,'圈数')
+    nwxlbook.save(writefilename)
+    print 'newx'
+
 #写入excel追加方式
-def WriteExcel(writefilename,name):
-    '''
-    if os._exists(writefilename)==False:
-        nwxlbook = xlwt.Workbook()   #creat a xlbook object
-        sheet1 = nwxlbook.add_sheet('dregister')
-        
-        
-        sheet1.write(0,0,unicode('时间',"utf8")
-        sheet1.write(0,1,'试验阶段'.decode('UTF-8').encode('GBK'))
-        sheet1.write(0,2,'角速度平均'.decode('UTF-8').encode('GBK'))
-        sheet1.write(0,3,'角速度3'.decode('UTF-8').encode('GBK'))
-        sheet1.write(0,4,'角速度峰峰值'.decode('UTF-8').encode('GBK'))
-        sheet1.write(0,5,'平衡轮电流平均'.decode('UTF-8').encode('GBK'))
-        sheet1.write(0,6,'平衡轮电流3'.decode('UTF-8').encode('GBK'))
-        sheet1.write(0,7,'平衡轮电流峰峰值'.decode('UTF-8').encode('GBK'))
-        sheet1.write(0,8,'平衡轮转速平均'.decode('UTF-8').encode('GBK'))
-        sheet1.write(0,9,'平衡轮转速峰峰值'.decode('UTF-8').encode('GBK'))
-        
-        nwxlbook.save(writefilename)
-    '''     
+def WriteExcel(writefilename,name):    
     f=xlrd.open_workbook(writefilename)#读取一个Excel文件到内存
     sh = f.sheet_by_index(0)
     nrow=sh.nrows
@@ -98,10 +103,8 @@ def GetdatafromTxt(txtfilefullpath,writefilename):
     lines = f.readlines()#��ȡȫ������  
     
     
-    for line in lines : 
-        if '时间' in line:
-            continue;
-       
+    
+    for line in lines :
         tempdata=line.split(',')
         workmodal=tempdata[workmodalnum].decode("gbk").encode("utf-8")
         if '旋转' in workmodal:
@@ -116,13 +119,13 @@ def GetdatafromTxt(txtfilefullpath,writefilename):
             enterstatus=True
             
         elif (enterstatus==True):
-           
             angleaver,anglestd,anglepeak=CalculateData(anglelist)
             ztcurrentaver,ztcurstd,ztcurpeak=CalculateData(ztcurrentlist)
             phspeedaver,phspeedstd,phspeedpeak=CalculateData(phspeedlist)
             phcurrentaver,phcurrentstd,phcurrentpeak=CalculateData(phcurrentlist)
-            starttime=timelist[0]      
-            name=[starttime,experimodel,angleaver,anglestd,anglepeak,ztcurrentaver,ztcurstd,ztcurpeak,phcurrentaver,phcurrentstd,phcurrentpeak,phspeedaver,phspeedpeak]
+            starttime=timelist[0] 
+            quannum=(len(anglelist)+20)/60*15+90     
+            name=[starttime,experimodel,angleaver,anglestd,anglepeak,ztcurrentaver,ztcurstd,ztcurpeak,phcurrentaver,phcurrentstd,phcurrentpeak,phspeedaver,phspeedpeak,quannum]
             WriteExcel(writefilename,name)
             
             timelist=[]
@@ -133,13 +136,14 @@ def GetdatafromTxt(txtfilefullpath,writefilename):
             
             enterstatus=False
             tempnum=1;
+
  
 if __name__=='__main__':
-    #textfilename=r'C:\Users\LIli\Desktop\dijian\remote_20179111147114.txt'
-    writefilename=r'C:\Users\LIli\Desktop\07\result.xls'
-    datapath=r'C:\Users\LIli\Desktop\07'
+    datapathy=r'C:\Users\LIli\Desktop\07'
+    datapath = unicode(datapathy,"utf8")
+    writefilename=datapath+r'\result.xls'
     listname=listdir(datapath)
-    
+    CreateExcel(writefilename)
     for m in range(0,len(listname)):
         print listname[m]
         GetdatafromTxt(listname[m],writefilename)
